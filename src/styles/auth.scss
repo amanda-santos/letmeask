@@ -6,8 +6,8 @@
   aside {
     flex: 7;
 
-    background: #835afd;
-    color: #fff;
+    background: #4b0881;
+    color: #fefefede;
 
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@
       font-size: 24px;
       line-height: 32px;
       margin-top: 16px;
-      color: #f8f8f8;
+      color: #fefefede;
     }
   }
 
@@ -57,7 +57,7 @@
 
     h2 {
       font-size: 24px;
-      margin: 64px 0 24px;
+      margin: 32px 0 24px;
       font-family: "Poppins", sans-serif;
     }
 
@@ -66,7 +66,8 @@
         height: 50px;
         border-radius: 8px;
         padding: 0 16px;
-        background: #fff;
+        background: #3d3d44;
+        color: #fefefe;
         border: 1px solid #a8a8b3;
       }
 
@@ -82,7 +83,7 @@
 
     p {
       font-size: 14px;
-      color: #737380;
+      color: #9e9eaf;
       margin-top: 16px;
 
       a {
@@ -92,11 +93,11 @@
   }
 
   .create-room {
-    margin-top: 64px;
+    margin-top: 32px;
     height: 50px;
     border-radius: 8px;
     font-weight: 500;
-    background: #ea4335;
+    background: #d02be6cb;
     color: #fff;
 
     display: flex;
@@ -130,7 +131,7 @@
       flex: 1;
       height: 1px;
       background: #a8a8b3;
-      margin-right: 16px;
+      margin-right: 8px;
     }
 
     &::after {
@@ -138,7 +139,8 @@
       flex: 1;
       height: 1px;
       background: #a8a8b3;
-      margin-right: 16px;
+      margin-right: 4px;
+      margin-left: 8px;
     }
   }
 }

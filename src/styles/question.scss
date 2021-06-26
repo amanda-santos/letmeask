@@ -1,5 +1,5 @@
 .question {
-  background: #fefefe;
+  background: #3d3d44;
   border-radius: 8px;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   padding: 24px;
@@ -8,8 +8,33 @@
     margin-top: 8px;
   }
 
+  &.highlighted {
+    background: #3a2872;
+    border: 1px solid #835afd;
+
+    footer .user-info span {
+      color: #fefefe;
+    }
+  }
+
+  &.answered {
+    background: #3d3d4432;
+
+    p {
+      color: #9292927a;
+    }
+
+    footer .user-info span {
+      color: #9292927a;
+    }
+
+    footer .user-info img {
+      filter: grayscale(100%) opacity(40%);
+    }
+  }
+
   p {
-    color: #29292e;
+    color: #fefefe;
   }
 
   footer {
@@ -35,6 +60,11 @@
       }
     }
 
+    > div {
+      display: flex;
+      gap: 16px;
+    }
+
     button {
       border: 0;
       background: transparent;
@@ -48,16 +78,16 @@
         gap: 8px;
 
         &.liked {
-          color: #835afd;
+          color: #e559f9;
 
           svg path {
-            stroke: #835afd;
+            stroke: #e559f9;
           }
         }
       }
 
       &:hover {
-        filter: brightness(0.7);
+        filter: brightness(1.5);
       }
     }
   }
