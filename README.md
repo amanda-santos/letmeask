@@ -1,7 +1,5 @@
 <h1 align="center">
     <img src="src/assets/images/logo.svg" />
-    <br />
-    Letmeask
 </h1>
 <img src="src/assets/images/Capa.png" />
 <p align="center">
@@ -21,8 +19,6 @@
   <a href="https://github.com/amanda-santos/letmeask/issues">
     <img alt="Repository issues" src="https://img.shields.io/github/issues/amanda-santos/letmeask">
   </a>
-  
-  <img alt="GitHub" src="https://img.shields.io/github/license/amanda-santos/letmeask">
 </p>
 <p align="center">
   <a href="#-techs">Techs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
@@ -44,10 +40,10 @@ This project was developed with the following technologies:
 ## 💻 Preview
 
 <p align="center">
-  <img src="demo/letmeask1.png" />
-  <img src="demo/letmeask2.png" />
-  <img src="demo/letmeask3.png" />
-  <img src="demo/letmeask4.png" />
+  <img src="src/assets/images/letmeask1.png" />
+  <img src="src/assets/images/letmeask2.png" />
+  <img src="src/assets/images/letmeask3.png" />
+  <img src="src/assets/images/letmeask4.png" />
 </p>
 
 ## 🖱 Usage
